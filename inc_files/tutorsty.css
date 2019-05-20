@@ -1,0 +1,47 @@
+.copyrightnotice {
+	font-size: 70%;
+	font-weight: bold;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	text-indent: 0;
+}
+
+#mycustomscroll {
+/* percentage width without the fix*/
+width: 500px;
+height: 410px; 
+overflow: auto;
+/* IE overflow fix, position must be relative or absolute*/
+position: relative;
+z-index:1;
+}
+
+#mycustomscroll2 {
+/*percantage width: make it 100% to match container*/
+width: 438px;
+height: 470px;
+overflow: auto;
+/* IE overflow fix, position must be relative or absolute*/
+position: relative;
+/* negative left margin to compensate for the padding,
+not related to fleXcroll, and may not be needed elsewhere */
+z-index:1;
+}
+
+/*
+percentage width: the real percentage is done by the wrapper
+this is to fix various IE6 bugs
+*/
+.percentagewrap {
+	width: 80%;
+	margin: 0 auto;
+}
+	
+.fixedwidth {
+/* a wide div is used for creating horizontal scrollbars for demonstration purposes */
+height: auto;
+position: relative;
+color: black;
+padding: 1px;
+}
+
