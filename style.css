@@ -1,0 +1,666 @@
+.clr{ 
+	clear:both;
+}
+img{
+	border:none;
+}	
+body{
+	margin:0px; padding:0px;
+	background:#000000;
+	font-size:16px;
+}
+a{
+	color:#FFFFFF;
+}	
+.header{
+	width:980px; 
+	margin:0 auto;
+	background:#000000;
+}
+	
+.logo_academie{
+	float:left; display:inline;
+	width:300px; padding:40px 20px 30px 0px;
+}
+
+.right_header{
+	float:right; display:inline;
+	width:640px; 
+}
+.right_header .form_reg{
+	text-align:right;
+	margin:12px 30px 2px 8px;
+}	
+.right_header .form_reg a{
+	text-align:right;
+	color:#FFFFFF; text-decoration:none; font-size:24px;
+}	
+.unslider-arrow {
+	display:none;
+}
+.unslider {
+	position: relative;
+}
+.unslider-nav {
+	position: absolute;
+	bottom: 20px;
+	z-index: 9;
+	left:	49%;
+}
+.right_header .meniu ul{
+	margin:10px 0px; padding:0px; text-align:right;
+}
+.right_header .meniu ul li{
+	float:left; display:inline;
+	margin:0px; padding:0px;
+}
+.right_header .meniu ul li a{
+	display:block; padding:4px 10px;
+	color:#FFFFFF; text-decoration:none; font-size:16px;
+}
+.right_header .meniu ul li a:hover{
+	text-decoration:underline;
+}
+
+.nav{ 
+	background:#252525; border-bottom:solid 3px #666666;
+}
+
+.nav ul{
+	margin:10px 0px; padding:0px; text-align:right;
+	width:980px; 
+	margin:0 auto;
+}
+.nav ul li{
+	float:left; display:inline;
+	margin:0px; padding:0px;
+}
+.nav ul li a{
+	display:block; padding:4px 40px; margin:0 4px;
+	color:#FFFFFF; text-decoration:none; font-size:24px;
+}
+.nav ul li a:hover{
+	background:#666666;
+}
+	
+.main{ 
+
+	border-bottom:solid 3px #666666;
+}
+	
+.footer {
+	width:980px; 
+	margin:4px auto;
+}
+.footer_nav {
+	margin:0px 20px; padding:8px;
+	text-align:center;
+	border-bottom:solid 1px #666666;
+}
+.footer_nav a{
+	color:#FFFFFF;
+	text-decoration:none;
+	padding:4px 24px;
+
+}	
+.melkior{
+	text-align:center;
+}
+.copy{
+	text-align:center;
+	color:#FFFFFF;
+	text-decoration:none;
+	padding-top:6px;
+	padding-bottom:6px;
+}
+/* social networks */
+.social{
+	background:url(images/social_back.png) top center no-repeat; 
+	width:43px; height:250px; padding:6px 4px; text-align:center;
+	position:fixed; top:218px; right:4px; z-index:1;
+}
+.social_f{
+	background:url(images/social_f.png) top center no-repeat; 
+	width:43px; height:37px; margin-top:4px;
+}
+.social_f:hover{
+	background:url(images/social_f.png) bottom center no-repeat; 
+}
+.social_i{
+	background:url(images/social_i.png) top center no-repeat; 
+	width:43px; height:36px; margin-top:11px;
+}
+.social_i:hover{
+	background:url(images/social_i.png) bottom center no-repeat; 
+}
+.social_p{ 
+	background:url(images/social_p.png) top center no-repeat; 
+	width:43px; height:38px; margin-top:11px;
+}
+.social_p:hover{
+	background:url(images/social_p.png) bottom center no-repeat; 
+}
+.social_t{
+	background:url(images/social_t.png) top center no-repeat; 
+	width:43px; height:36px; margin-top:11px;
+}
+.social_t:hover{
+	background:url(images/social_t.png) bottom center no-repeat; 
+}
+.social_y{
+	background:url(images/social_y.png) top center no-repeat; 
+	width:43px; height:39px; margin-top:11px;
+}
+.social_y:hover{
+	background:url(images/social_y.png) bottom center no-repeat; 
+}
+/* end social networks */
+
+.input{
+	width:290px;
+}
+
+table tr td {
+	color: #fff;
+}
+
+/* Desktop */
+.right_header .meniu ul li a {
+    display: block;
+    padding: 4px 9px;
+}
+
+.red-menu-item {
+	color:#f00 !important;
+}
+
+.right_header .meniu .red-menu-item {
+    font-weight: bold;
+}
+
+/* not on mobile */
+.footer .social-footer {
+	display: none;
+}
+
+.footer .footer_nav a.mobile-footer-link {
+	display: none;
+}
+
+.navigare.footer-navigare {
+	display: none;
+}
+
+.header .right_header .meniu ul li.mobile-link-show {
+	display: none;
+}
+
+.trainer-description-div {
+	min-height: 460px !important;
+}
+/* end not on mobile */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+	.header{
+		width: 90%;
+	}
+
+	.right_header {
+		width: 64%;
+		/* width: 580px; */
+	}
+
+	.right_header .meniu ul li a {
+		padding: 4px 6px;
+	}
+
+	.nav ul {
+    	width: 861px;
+		margin: 0 auto;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+	.header{
+		width: 700px;
+		/* width: 600px; */
+	}
+
+	.right_header {
+		width: 355px;
+		/* width: 280px; */
+	}
+
+	.right_header img {
+		width: 350px;
+	}
+
+	.nav ul {
+		width: 630px;
+	}
+
+	.nav ul li a {
+		padding: 0;
+		margin: 0 20px;
+		text-align: center;
+	}
+
+	.content .div-text {
+		width: 90% !important;
+    	margin: 0 auto;
+	}
+
+	.content .div-traineri {
+		width: 628px !important;
+		margin: 0 auto !important;
+	}
+
+	/* BEGIN formular inscriere */
+	.content .div-inscriere {
+		width: 90% !important;
+	}
+
+	.content .div-inscriere form,
+	.content .div-inscriere form table {
+		width: 90% !important;
+	}
+
+	.content .div-inscriere form table td:first-child {
+		width: 100px !important;
+	}
+
+	.content .div-inscriere form table td input {
+		width: 200px !important;
+	}
+	
+	.content .div-inscriere form table td input.checkbox-input {
+		width: 13px !important;
+	}
+	/* END formular inscriere */
+
+	/* BEGIN trainer description page */
+	.trainer-first-div {
+		width: 90% !important;
+		/* height: 950px !important; */ /* height: 1160px !important; */
+	}
+	
+	.trainer-second-div {
+		background: none !important;
+		width: 500px !important;
+		/* height: 100% !important;  */
+	}
+
+	.trainer-description-div {
+		background: none !important;
+		padding-top: 20px !important; /* padding-top: 600px !important; */
+		padding-left: 0px !important;
+		width: 500px !important;
+		/* height: 100% !important; */
+	}
+
+	.trainer-second-div img.poza {
+		display: block !important;
+	}
+
+	.trainer-description-div #mycustomscroll {
+		width: 100% !important;
+		height: auto !important;
+	}
+
+	.trainer-description-div #mycustomscroll #mycustomscroll_mcontentwrapper {
+		/* height: 410px !important; */
+	}
+
+	/* begin trainers name */
+	.trainer-description-div .trainer-name {
+		display: block !important;
+		text-align: center;
+	}
+	/* end trainers name */
+
+	/* END trainer description page */
+
+	.footer {
+		max-width: 90% !important;
+		margin: 0 auto;
+	}
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 767px) {
+	.header{
+		width: 560px;
+	}
+
+	.right_header {
+		width: 240px;
+	}
+
+	.right_header img {
+		width: 350px;
+		margin-left: -50%;
+	}
+
+	.nav ul {
+		width: 561px;
+	}
+
+	.nav ul li a {
+		margin: 0 14px;
+	}
+
+	.content .div-text .middle-h1 {
+		text-align: center;
+	}
+
+	.content .div-traineri {
+		width: 600px !important;
+	}
+	
+	.content .div-traineri img {
+		width: 280px !important;
+		margin: 10px !important;
+	}
+
+	.footer_nav {
+    	max-width: 290px !important;
+		margin: 0 auto;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {}  */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.header{
+		width: 300px;
+	}
+
+	.logo_academie {
+		padding-bottom: 10px;
+	}
+
+	.form_reg {
+		display: none;
+	}
+
+	.right_header {
+		width: 300px;
+    	padding-bottom: 15px;
+	}
+
+	.right_header .meniu {
+		width: 290px;
+	}
+	
+	.right_header .meniu ul li a{
+		font-size: 20px;
+	}
+
+	.right_header img {
+		width: 309px;
+		margin-left: -3px;
+	}
+
+	.nav ul {
+    	width: 351px;
+	}
+
+	.nav ul li a{
+		font-size: 16px;
+    	margin: 0px 7px;
+	}
+
+	.content .div-text img.certificat {
+		width: 288px;
+	}
+	
+	.content .melkior-preview {
+		width: 90% !important;
+		overflow: scroll !important;
+	}
+
+	.content .div-traineri {
+		width: 282px !important;
+	}
+
+	.content .div-traineri img {
+		margin: 10px 0 !important;
+	}
+
+	/* begin formular inscriere */
+	.content .div-inscriere {
+		width: 300px !important;
+	}
+
+	.content .div-inscriere form,
+	.content .div-inscriere form table {
+		width: 300px !important;
+	}
+
+	.content .div-inscriere form table td input {
+		width: 150px !important;
+	}
+	
+	.content .div-inscriere form table td input.checkbox-input {
+		width: 13px !important;
+	}
+	/* end formular inscriere */
+
+
+	/* BEGIN responsive table - orar cursuri */
+
+	/* Force table to not be like tables anymore */
+	table.responsive-table, .responsive-table thead, .responsive-table tbody, .responsive-table th,
+	.responsive-table td, .responsive-table tr {
+		display: block;
+	}
+
+	/* Hide table headers (but not display: none;, for accessibility) */
+	.responsive-table thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+
+	.responsive-table tr {
+		margin: 0 0 1rem 0;
+	}
+	
+	.responsive-table tr:nth-child(odd) {
+		background: #efececa3; /* 1) #ccc; or 2) #efececa3; or 3) none */
+	}
+
+	.responsive-table tr:nth-child(odd) td strong,
+	.responsive-table tr:nth-child(odd) td strong span {
+		/*color: black !important;*/
+	}
+	
+	.responsive-table td {
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee;
+		position: relative;
+		padding-left: 50%;
+	}
+
+	.responsive-table td:before {
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 0;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+	}
+
+	.responsive-table td:nth-of-type(1) { padding-left: 5px; }
+	.responsive-table tr:nth-of-type(2) { display: none; }
+	.responsive-table tr:nth-of-type(5) { background: transparent; }
+	table.responsive-table { border: none !important; }
+	.responsive-table tbody { margin-bottom: -15px; }
+
+	/* Label the data */
+	.responsive-table td:nth-of-type(1) { font-weight: bold; }
+	.responsive-table td:nth-of-type(1):before { content: ""; }
+	.responsive-table td:nth-of-type(2):before { content: "Pret"; }
+	.responsive-table td:nth-of-type(3):before { content: "Data desfasurare"; }
+	.responsive-table td:nth-of-type(4):before { content: "Orar"; }
+	.responsive-table td:nth-of-type(5):before { content: "Locuri libere"; }
+	
+	/* END responsive table - orar cursuri */
+
+	/* BEGIN - menu on mobile */
+	.right_header .meniu ul li:first-child,
+	.right_header .meniu ul li:nth-of-type(6),
+	.right_header .meniu ul li:nth-of-type(7) {
+		display: none;
+	}
+
+	.right_header img {
+		display: none;
+    	/* margin-top: -93px; */
+	}
+
+	.navigare {
+		display: none;
+	}
+	
+	.navigare.footer-navigare {
+		display: block;
+	}
+
+	.main .content .table-div {
+		margin-top: -30px !important;
+    	margin-bottom: 30px !important;
+	}
+
+	.header .right_header {
+    	/* padding-top: 10px; */
+		border-bottom: 1px solid white;
+    	margin-bottom: 15px;
+	}
+
+	.logo_academie {
+		padding-top: 10px !important;
+	}
+
+	.header .right_header .meniu ul li.mobile-link-hide {
+		display: none;
+	}
+
+	.header .right_header .meniu ul li.mobile-link-show {
+		display: inline;
+	}
+
+	/* move social media to footer */
+	.main .content .social {
+		display: none;
+	}
+
+	.footer .social-footer {
+		display: block;
+		background-color: #c5c4c4f5;
+		border-radius: 10px;
+		/* background: url(images/social_back.png) top center repeat; */
+		width: 250px; height: 43px; padding: 4px 6px; text-align: center;
+		margin: 10px auto;
+		padding: 0;
+		padding-bottom: 15px;
+	}
+
+	.footer .social-footer div {
+		display: inline-block !important;
+		margin-bottom: 11px;
+	}
+
+	.footer .social-footer .social_f {
+		margin-top: 11px;
+	}
+
+	.footer .footer_nav a.mobile-footer-link {
+		display: inline-block;
+	}
+
+	.footer .footer_nav {
+		max-width: 275px !important;
+		padding: 8px 0px;
+	}
+
+	.footer .footer_nav a {
+		/* padding: 4px 11px; */
+		padding: 4px 5px;
+	}
+
+	/* END - menu on mobile */
+
+	/* BEGIN trainer description page */
+	.trainer-second-div {
+		width: 100% !important;
+		max-width: 430px !important;
+	}
+
+	.trainer-description-div {
+		width: 100% !important;
+	}
+	/* END trainer description page */
+
+	/* BEGIN registration form */
+	.content .div-inscriere h1 {
+		text-align: center !important;
+	}
+
+	.content .div-inscriere form.registration-form {
+		margin: 0 auto !important;
+	}
+
+	.content .div-inscriere form.registration-form table {
+		padding: 0 !important;
+		margin-top: -55px;
+		border-spacing: 0 !important;
+	}
+
+	.content .div-inscriere form.registration-form table tbody {
+		display: block !important;
+	}
+
+	.content .div-inscriere form.registration-form table tr {
+		display: block;
+		width: 100% !important;
+		margin: 10px 0 !important;
+	}
+
+	.content .div-inscriere form.registration-form table tr td {
+		display: block !important;
+		width: 100% !important;
+		margin: 0 0;
+		padding: 0 !important;
+	}
+
+	.content .div-inscriere form.registration-form table tr td:nth-of-type(1) {
+		margin: 10px 0 0 0;
+	}
+
+	.content .div-inscriere form table td:first-child,
+	.content .div-inscriere form table td input {
+    	width: 100% !important;
+	}
+	
+	.content .div-inscriere form.registration-form table br.new-line-mobile-hide {
+		display: none;
+	}
+	/* END registration form */
+}
+@media only screen and (max-width: 400px) {
+	.nav ul {
+    	width: 200px;
+	}
+
+	.nav ul li a {
+		margin: 1px 10px;
+	}
+}
